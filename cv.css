@@ -1,0 +1,423 @@
+body {
+      transition: background-color 0.3s, color 0.3s;
+      line-height: 1.6;
+      user-select: none;
+    
+ 
+      
+
+}
+body.lang-fa {
+  direction: rtl;
+  text-align: right;
+  word-spacing: 1.5px;
+ 
+ font-family: vazir;
+  /* font-family: iran_sans; */
+}
+
+body.lang-en {
+  direction: ltr;
+  text-align: left;
+  
+ 
+
+ 
+  font-family: vazir;
+}
+body.lang-en .role-box {
+ line-height: 1.4rem;
+ word-spacing: -1px;
+ font-size: 15px;
+ letter-spacing: 0.2px;
+}
+
+/* #about-title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 1px;
+  margin-bottom: 20px;
+}
+
+#about-title::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  background-color: #5786d1;
+  left: 0;
+  bottom: 0;
+}
+
+
+#skills-title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 1px;
+  margin-bottom: 20px;
+}
+
+#skills-title::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  background-color: #5786d1;
+  left: 0;
+  bottom: 0;
+} */
+
+
+
+.skills{
+  cursor: pointer;
+}
+
+
+.tooltip-inner {
+  font-size: 12px;      /* سایز متن */
+  font-family: 'Vazirmatn', sans-serif; /* فونت */
+
+  padding: 6px 8px;      /* فاصله داخل باکس */
+  border-radius: 8px;     /* گوشه‌های گرد */
+
+  
+}
+
+.bs-tooltip-top .tooltip-arrow::before {
+  border-top-color: red !important;
+}
+
+
+.avatar {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+     border: 3px solid #5786d1;
+
+}
+ body.lang-en  .about{
+  font-size: 17px;
+  letter-spacing: 0.3px;
+}
+ body.lang-fa .about {
+  margin-top: 1rem;  
+    font-size:18px;
+    /* font-weight: 550; */
+ }
+.role-box {
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 10px rgb(199, 187, 187);
+    padding:1.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #5786d1;
+    min-height: 240px;
+    max-height: 240px;
+    /* text-align: center; */
+    line-height: 25px;
+    transition: transform 0.3s;
+}
+.role-box:hover{
+    transform: translateY(-4px);
+}
+
+.skills img:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+}
+body.lang-fa .role-box p {
+  font-size:15px
+}
+.quote {
+ 
+    text-align: center;
+    
+ }
+ .div-tools{
+   border-bottom: 2px solid #1e293b;
+   margin-bottom: 2rem;
+   padding-top: 2rem;
+   padding-bottom: 10px;
+   
+ }
+
+
+
+ body.lang-fa .lang_button img {
+  margin-left: 15px;
+}
+.lang_button img{
+  margin-right: 15px;
+  margin-top: 5px;
+}
+.light-mode .lang_button:hover {
+  background-color: inherit !important;
+  color: inherit !important;
+  border-color: #f1f6f9;
+}
+ .dark-mode .lang_button:hover {
+  background-color: inherit !important;
+  color: inherit !important;
+  border-color: #0f172a !important;
+}
+ .lang_button {
+  background-color: inherit !important;
+  color: inherit !important;
+  padding: 0 !important;
+  margin: 0 !important;
+
+ 
+}
+
+ .toggle_button{
+    border: 1px solid white;
+    color: #dee2e6;
+ }
+ body.light-mode .toggle_button{
+     border: 1px solid #0f172a;
+     color: #0f172a;
+ }       
+
+ .form-switch .form-check-input {
+  width: 45px;
+  height: 20px;
+  cursor: pointer;
+  background-color: #ccc;
+  box-shadow: none;
+}
+
+.div_theme{
+    direction: ltr !important;
+
+      direction: ltr !important;
+  display: flex;
+  align-items: center;
+
+    
+}
+.div_theme img:nth-of-type(1){
+  rotate: 28deg;
+ 
+
+  padding-top: 4px;
+}
+.div_theme img:nth-of-type(2){
+ padding-top: 3px;
+width: 45px;
+rotate: 40deg;
+
+}
+
+
+.btn-primary{
+    margin: 0px !important;
+    font-size: 12px;
+}
+.light-mode .toggle_theme{
+background-color:#3b5c92 !important;
+
+}
+.light-mode .div_theme{
+    background-color:inherit !important;
+    border-radius: 10%;
+   
+}
+
+
+
+.div_skills{
+    color: #5786d1;
+    border: 3px solid  #5786d1;
+    margin-top: 2.5rem;
+}
+
+strong{
+    font-size: larger;
+    /* letter-spacing: 0.px; */
+}
+
+
+footer{
+    background-color: #5786d1;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top:2.5rem;
+    padding-top: 25px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.contact-me:nth-childi(1){
+  cursor: pointer;
+}
+.dark-mode footer{
+    background-color: #3b5c92;
+}
+
+
+
+ .footer-links a{
+    color: #ccc;
+ }
+
+
+
+body.lang-fa .div_title{
+    padding-right: 10px;
+    padding-top: 20px;   
+}
+
+body.lang-fa .name_title{
+    font-weight: 550;
+}
+body.lang-fa .lead {
+    
+    font-size: 18px;
+}
+
+
+ .dark-mode {
+    background-color: #0f172a;
+    color: #f1f5f9;
+}
+
+.light-mode {
+    /* background-color: #ffffff; */
+      /* background-color: #e9ecef; */
+       /* background-color: #edf6f9; */
+        /* background-color: #ede0d4; */
+        background-color: #f1f6f9;
+
+    color: #1e293b;
+}
+
+.modal-footer .btn:nth-last-of-type(2){
+ background-color:#3b5c92;
+ color: white;
+
+}
+.modal-footer .btn:nth-last-of-type(1){
+ background-color:gray;
+ color: white;
+}
+
+
+@font-face {
+    font-family:vazir ;
+    src: url(./jpg/font/Vazir.ttf);
+}
+@font-face {
+    font-family:iran_sans ;
+    src: url(./jpg/font/IRAN\ Sans\ Regular.ttf);
+}
+
+
+/* ✅ استایل مودال */
+.modal-header {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  padding-right: 2rem;
+  border-bottom: 1px solid #c0d8fd;
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 1rem;
+  color: #0f172a;
+}
+
+.modal-body {
+  border-bottom: 1px solid #c0d8fd;
+}
+
+.modal-content {
+  box-shadow: 0 0 10px 10px gray;
+  border: 2px solid gray !important;
+}
+
+/* ✅ افکت دلخواه برای دکمه Close */
+.btn-close:focus,
+.btn-close:active {
+  outline: none;
+  box-shadow: 0 0 0 0.25rem #c0d8fd;
+  border-radius: 25%;
+}
+body.lang-fa .btn-close {
+  margin-right: 50%;
+  margin-left: 0px;
+}
+
+/* ✅ ظاهر فیلدهای فرم */
+.form-label {
+  color: #0f172a;
+  font-size: 16px;
+}
+.form-control {
+  box-shadow: none !important;
+}
+
+/* ✅ پس‌زمینه تار برای انیمیشن موفقیت */
+.success-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ✅ دایره چرخشی */
+.circle-loader-wrapper {
+  text-align: center;
+  color: white;
+}
+
+.circle-loader {
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  border-top: 5px solid #4BB543;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1.2s linear forwards;
+  margin: 0 auto;
+}
+
+/* ✅ تیک سبز و پیام تشکر */
+.checkmark {
+  font-size: 36px;
+  color: #4BB543;
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.checkmark.show {
+  opacity: 1;
+}
+
+.thank-text {
+  font-size: 16px;
+  margin-top: 10px;
+  color: white;
+}
+
+/* ✅ انیمیشن چرخش */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media (max-width :1200px ) {
+  .role-box{
+    min-height:fit-content!important;
+  }
+}
